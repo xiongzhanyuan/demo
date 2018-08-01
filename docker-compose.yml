@@ -1,6 +1,4 @@
 version: '2'
-  services:
-    web:
-      image: springboot-docker/demo
-      ports:
-        - "6060:8080"
+services:
+  demo:
+    image: 'springboot-docker/demo'
