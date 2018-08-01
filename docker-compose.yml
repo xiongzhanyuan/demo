@@ -1,0 +1,8 @@
+version: '2'
+services:
+  springappserver:
+      build:
+        context: .
+        dockerfile: main/docker/Dockerfile
+      ports:
+        - "6060:8080"
