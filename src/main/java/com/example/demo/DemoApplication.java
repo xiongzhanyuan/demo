@@ -14,7 +14,7 @@ public class DemoApplication {
     }
     @GetMapping("/")
     public String index() {
-        return "你好,lalala";
+        return "你好,hahaha";
     }
 
 }
